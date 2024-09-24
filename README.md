@@ -1,6 +1,6 @@
 # Wizards-Outh Django
 
-A powerful authentication API using Django, similar to Clerk.com.
+Wizards-Outh Django is a powerful authentication API built with Django, offering features similar to Clerk.com for seamless user management and authentication.
 
 ## Features
 - User registration and login
@@ -49,4 +49,36 @@ A powerful authentication API using Django, similar to Clerk.com.
 6. **Access the API**:
    Open your browser and go to `http://localhost:8000` to access the API.
 
-For more detailed documentation, please refer to the official documentation or the project's GitHub repository.
+## Usage Examples
+
+### Register a New User
+To register a new user, send a POST request to `/api/register/` with the following JSON payload:
+```json
+{
+  "username": "newuser",
+  "password": "password123"
+}
+```
+
+### Login
+To log in, send a POST request to `/api/login/` with the following JSON payload:
+```json
+{
+  "username": "newuser",
+  "password": "password123"
+}
+```
+
+### Generate API Key
+To generate a new API key, send a POST request to `/api/api-key/generate/` with an authenticated user.
+
+## API Endpoints
+
+- `POST /api/register/`: Register a new user
+- `POST /api/login/`: Log in a user
+- `GET /api/protected/`: Access a protected route (requires authentication)
+- `POST /api/api-key/generate/`: Generate a new API key (requires authentication)
+- `GET /api/api-key/list/`: List all active API keys (requires authentication)
+- `POST /api/api-key/deactivate/`: Deactivate an API key (requires authentication)
+
+For more detailed documentation, please refer to the project's GitHub repository.
