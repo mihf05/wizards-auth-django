@@ -26,7 +26,7 @@ Wizards-Outh Django is a powerful authentication API built with Django, offering
 2. **Install the Package**
    To install the package, use the following command:
    ```bash
-   pip install wizards-outh-django
+   pip install wizards-auth-django
    ```
 
 3. **Configure Django Settings**:
