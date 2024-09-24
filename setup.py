@@ -19,9 +19,7 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/mihf05/wizards-auth-django.git',
     classifiers=[
-        'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
+        'Programming Language :: Python :: 3'
     ],
     python_requires='>=3.6',
 )
