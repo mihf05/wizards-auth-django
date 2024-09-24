@@ -1,4 +1,4 @@
-# Wizards-Outh Django
+# wizards-auth-django
 
 Wizards-Outh Django is a powerful authentication API built with Django, offering features similar to Clerk.com for seamless user management and authentication.
 
