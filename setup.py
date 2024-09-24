@@ -14,7 +14,7 @@ setup(
     ],
     author='MD IRFAN HASAN FAHIM',
     author_email='mdirfanhasanfahim@gmail.com',
-    description='A powerful authentication API using Django, similar to Clerk.com',
+    description='A powerful authentication API using Django',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/mihf05/wizards-auth-django.git',
